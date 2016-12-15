@@ -1,0 +1,8 @@
+A quick hack to invoke methods on Microsoft's Partner Center API.
+
+Microsoft provides a .NET and (not officially maintained) Java SDK, but no
+Python client (even though that they provide a Python SDK for Azure).
+
+The API's login URLs include 'oauth' in their paths, but it does not seem an
+actual OAuth2 handshake- the actual token obtention code seems simple enough
+to reproduce from scratch.
